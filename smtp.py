@@ -9,11 +9,11 @@ class stmp:
     def  email_server(emailContext):
         # 第三方 SMTP 服务
         mail_host = "smtp.qq.com"  # 设置服务器
-        mail_user = "1736101137@qq.com"  # 用户名
-        mail_pass = "wgsmxhyptgdsbfcd"  # 口令
+        mail_user = "xxx@qq.com"  # 用户名
+        mail_pass = "xxx"  # 口令
 
-        sender = '1736101137@qq.com'
-        receivers = ['3208703659@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+        sender = 'xxx@qq.com'
+        receivers = ['xxx@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
         message = MIMEText(emailContext, 'plain', 'utf-8')
         message['From'] = Header("财神爷", 'utf-8')
